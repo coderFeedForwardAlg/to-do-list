@@ -1,0 +1,27 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+
+button {
+  display: block;
+  background-color: #f44336;
+  border-radius: 8px;
+  padding: 14px 40px;
+}
+
+button2:hover {
+  box-shadow: 0 120px 1600px 0 rgba(0,0,0,0.24), 0 170px 500px 0 rgba(0,0,0,0.190);
+  
+  
+}
+
+h1 {
+  padding: 35px;
+  color:yellow;
+  background:black;
+}
