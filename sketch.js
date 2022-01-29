@@ -2,7 +2,7 @@ var T;
 
 
 
-//  MAKE T IN THE JAVASCRIPT TO YOU CAN RE ASIN T TO A
+//  MAKE T IN THE JAVASCRIPT SO YOU CAN RE ASIN T TO A
 // NEW TEXT ELIMENT WHEN ENTER IS PRESED TO IT IS 
 // ALWAYS CLEARD 
 
@@ -11,42 +11,27 @@ function setup() {
   noCanvas();
   T = select("#in");
   points = createElement("h3", "");
-
-  
 }
 
 var xp = 0;
 let points;
 function draw() {
   
-  
-  
   rect(windowWidth - 40, windowHeight - 40, 40,40);
   
-  
-
-  
   T.changed(enter)
-  
-  
   
   var thing = selectAll("button");
   
   for(var i = 0; i < thing.length; i++){
     thing[i].mouseClicked(kill);
-    
-
-    
   }
-  
 }
 
 
 function enter(){
   var a = createElement("button", T.value());
   //a.position(0,x);
-  
-  
 }
 
 function kill(){
